@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+article {
+  h1 {
+    text-align: center;
+  }
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.teto-pear {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+}
+header a + a::before {
+  content: "•";
+  display: inline-block;
+  color: black;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+}
